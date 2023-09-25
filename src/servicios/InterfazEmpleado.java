@@ -11,7 +11,4 @@ public interface InterfazEmpleado {
 	public void modificarEmpleado(List<Empleado> listaEmpleadosAntigua);
 	
 	public void exportarFicher(List<Empleado> listaEmpleadosAntigua);
-	
-	public int opcionEmpleado(List<Empleado> listaEmpleadosAntigua);
-	
 }
