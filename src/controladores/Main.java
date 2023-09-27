@@ -8,6 +8,8 @@ import java.util.Scanner;
 import entidades.Empleado;
 import servicios.ImplEmpleado;
 import servicios.ImplMenu;
+import servicios.InterfazEmpleado;
+import servicios.InterfazMenu;
 
 
 public class Main {
@@ -15,8 +17,8 @@ public class Main {
 	public static void main(String[] args) {
 		
 		//Implementamos
-		ImplMenu implMenu = new ImplMenu();
-		ImplEmpleado implEmpleado = new ImplEmpleado();
+		InterfazMenu implMenu = new ImplMenu();
+		InterfazEmpleado implEmpleado = new ImplEmpleado();
 		List<Empleado> listaEmpleados = new ArrayList<Empleado>();
 		Scanner leer = new Scanner(System.in);
 		
